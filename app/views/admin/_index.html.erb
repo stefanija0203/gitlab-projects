@@ -1,0 +1,49 @@
+<div class="row">
+  <div class="col-md-4">
+    <div class="admin-filter">
+      <form method="get">
+        <div class="form-group">
+          <label >Name</label>
+          <input class="form-controls" id="name" type="text" />
+        </div>
+        <div class="form-group">
+          <label id="owner">Owner</label>
+          <input class="form-controls" id="owner" />
+        </div>
+        <div class="checkbox">
+          <label>Not empty</label>
+          <input type="checkbox" id="with_push" />
+          <span class="light">Project with push events</span>
+        </div>
+        <div class="checkbox">
+          <label>Abandoned</label>
+          <input type="checkbox" id="abandoned" />
+          <span class="light">No activity over 6 month</span>
+        </div>
+        <fieldset>
+          <div class="strong">Visibility level:</div>
+          <div class="visibility-levels">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" />
+                <span class="descr"><i class="fa fa-lock"></i>Private</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" />
+                <span class="descr"><i class="fa fa-shield"></i>Internal</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" />
+                <span class="descr"><i class="fa fa-globe"></i>Public</span>
+              </label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
