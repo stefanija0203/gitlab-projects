@@ -1,0 +1,34 @@
+.ui-box {
+  background: #FFF;
+  margin-bottom: 20px;
+  border: 1px solid #DDD;
+  word-wrap: break-word;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .title {
+    background-color: #EEE;
+    border-bottom: 1px solid #DDD;
+    color: #666;
+    font-size: 16px;
+    text-shadow: 0 1px 1px #fff;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0;
+
+    > a {
+      text-shadow: 0 1px 1px #fff;
+    }
+
+    .btn {
+      vertical-align: middle;
+      padding: 4px 12px;
+      @include box-shadow(0 0px 1px 1px #f2f2f2);
+    }
+  }
+}

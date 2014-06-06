@@ -12,4 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require_tree .
+
+
+
+$(function() {
+    $('.has_bottom_tooltip').tooltip({placement: 'bottom'});
+});
